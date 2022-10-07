@@ -1,3 +1,16 @@
+@media screen and (max-width: 1160px) {
+
+    .lessons .text-center img{
+        width: 100%;
+        display: block;
+    }
+    .container {
+        max-width: 100%;
+    }
+
+}
+
+
 
 @media screen and (max-width: 768px) {
 
@@ -9,4 +22,40 @@
         display: flex;
     }
 
+}
 
+@media screen and (max-width: 480px) {
+
+    .section {
+        max-width: 100%;
+    }
+    
+    
+    .container {
+        max-width: 100%;
+    }
+
+    .row  {
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+    }
+
+    .row .col{
+       width: 100%;
+    }
+
+    .why-us {
+        background-color: rgb(34, 34, 34);
+        margin-bottom: 0;
+    }
+
+    .steps {
+        margin-bottom: 0;
+    }
+
+    
+
+}
+        
