@@ -1,5 +1,6 @@
+
 @media screen and (max-widht: 768) {
-    .steps text-center {
-        max-width: 100%;
+    .steps {
+        min-width: 100%;
     }
 }
